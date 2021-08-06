@@ -5,6 +5,8 @@ Sample project for all UIKit Haptic feedback:
 - ```UINotificationFeedbackGenerator```
 - ```UISelectionFeedbackGenerator```
 
+  > For test haptic feedback need run the app on a device
+
 Article:
 - [dev.to]()
 - [tonidevblog]()
