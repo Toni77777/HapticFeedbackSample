@@ -1,13 +1,11 @@
 # HapticFeedbackSample
 
+> For test haptic feedback need run the app on a device
+> 
 Sample project for all UIKit Haptic feedback
 - ```UIImpactFeedbackGenerator```
 - ```UINotificationFeedbackGenerator```
 - ```UISelectionFeedbackGenerator```
-
-
-  > For test haptic feedback need run the app on a device
-
 
 Article:
 - [dev.to]()
