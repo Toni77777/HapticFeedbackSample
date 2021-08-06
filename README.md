@@ -1,9 +1,9 @@
 # HapticFeedbackSample
 
 Sample project for all UIKit Haptic feedback:
-- ```swift UIImpactFeedbackGenerator```
-- ```swift UINotificationFeedbackGenerator```
-- ```swift UISelectionFeedbackGenerator```
+- ```UIImpactFeedbackGenerator```
+- ```UINotificationFeedbackGenerator```
+- ```UISelectionFeedbackGenerator```
 
 Article:
 - [dev.to]()
