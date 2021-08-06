@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HapticFeedbackView.swift
 //  HapticFeedback
 //
 //  Created by Anton Paliakou on 8/6/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HapticFeedbackView: View {
     
     var body: some View {
         VStack(spacing: 48) {
@@ -53,7 +53,7 @@ struct ContentView: View {
         }
     }
     
-    // MARK: - Private
+    // MARK: - UIImpactFeedbackGenerator
     
     private func impactFeedback(_ style: UIImpactFeedbackGenerator.FeedbackStyle) {
         let impactFeedback = UIImpactFeedbackGenerator(style: style)
@@ -61,11 +61,15 @@ struct ContentView: View {
         impactFeedback.impactOccurred()
     }
     
+    // MARK: - UINotificationFeedbackGenerator
+    
     private func notificationFeedback(_ feedbackType: UINotificationFeedbackGenerator.FeedbackType) {
         let notificationFeedback = UINotificationFeedbackGenerator()
         notificationFeedback.prepare()
         notificationFeedback.notificationOccurred(feedbackType)
     }
+    
+    // MARK: - UISelectionFeedbackGenerator
     
     private func selectionFeedback() {
         let selectionFeedback = UISelectionFeedbackGenerator()

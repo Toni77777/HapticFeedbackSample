@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0027AD7B26BDABAE00A4528D /* HapticFeedbackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0027AD7A26BDABAE00A4528D /* HapticFeedbackApp.swift */; };
-		0027AD7D26BDABAE00A4528D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0027AD7C26BDABAE00A4528D /* ContentView.swift */; };
+		0027AD7D26BDABAE00A4528D /* HapticFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0027AD7C26BDABAE00A4528D /* HapticFeedbackView.swift */; };
 		0027AD7F26BDABB500A4528D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0027AD7E26BDABB500A4528D /* Assets.xcassets */; };
 		0027AD8226BDABB500A4528D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0027AD8126BDABB500A4528D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		0027AD7726BDABAE00A4528D /* HapticFeedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticFeedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0027AD7A26BDABAE00A4528D /* HapticFeedbackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackApp.swift; sourceTree = "<group>"; };
-		0027AD7C26BDABAE00A4528D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0027AD7C26BDABAE00A4528D /* HapticFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackView.swift; sourceTree = "<group>"; };
 		0027AD7E26BDABB500A4528D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0027AD8126BDABB500A4528D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0027AD8326BDABB500A4528D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				0027AD7A26BDABAE00A4528D /* HapticFeedbackApp.swift */,
-				0027AD7C26BDABAE00A4528D /* ContentView.swift */,
+				0027AD7C26BDABAE00A4528D /* HapticFeedbackView.swift */,
 				0027AD7E26BDABB500A4528D /* Assets.xcassets */,
 				0027AD8326BDABB500A4528D /* Info.plist */,
 				0027AD8026BDABB500A4528D /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0027AD7D26BDABAE00A4528D /* ContentView.swift in Sources */,
+				0027AD7D26BDABAE00A4528D /* HapticFeedbackView.swift in Sources */,
 				0027AD7B26BDABAE00A4528D /* HapticFeedbackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -272,7 +272,7 @@
 				DEVELOPMENT_TEAM = 5NVWJ2SDAF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HapticFeedback/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -280,7 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = toni77777.HapticFeedback;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -294,7 +294,7 @@
 				DEVELOPMENT_TEAM = 5NVWJ2SDAF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HapticFeedback/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = toni77777.HapticFeedback;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

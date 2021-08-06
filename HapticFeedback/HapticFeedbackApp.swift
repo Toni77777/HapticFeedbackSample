@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct HapticFeedbackApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HapticFeedbackView()
         }
     }
 }
